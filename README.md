@@ -51,6 +51,13 @@ python dataset_maker.py --base_directory output_raytracing_dir --output_dir  sav
 ```
 For furthur explanation please use --help.
 
+**Train your INR optical system**
+
+```bash 
+python train.py --data_root_dir root_data_directory --data_folder  data_for_your_optical_system_dir
+```
+For additional options and command-line arguments for training, use --help
+
 
 
 
