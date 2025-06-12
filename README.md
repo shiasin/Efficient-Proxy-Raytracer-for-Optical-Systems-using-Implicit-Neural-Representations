@@ -16,3 +16,10 @@ accurate manner.
 
 
 # Getting Started
+
+**Requirements**
+
+Install dependencies using pip or use following .yml file:
+
+```bash
+pip install -r requirements.txt
