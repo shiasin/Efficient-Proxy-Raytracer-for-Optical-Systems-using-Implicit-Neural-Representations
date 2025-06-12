@@ -39,7 +39,14 @@ You can use our built-in ray tracer or integrate your own. Just ensure your outp
 To run our built-in ray tracer, use the following command. An example JSON file is provided in the lenses folder for reference.
 
 ```bash 
-python raytracing_sys --lens_file  your_directory_to_lens.json --output_directory  save_rays_directory
+python raytracing_sys.py --lens_file  your_directory_to_lens.json --output_directory  save_rays_directory
+```
+For furthur explanation please use --help.
+
+**Preparing Dataset** 
+Use following command to prepare your dataset. 
+```bash 
+python dataset_maker.py --base_directory output_raytracing_dir --output_dir  save_train_test_dir
 ```
 For furthur explanation please use --help.
 
