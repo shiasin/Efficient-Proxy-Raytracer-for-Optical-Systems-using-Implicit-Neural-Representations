@@ -23,3 +23,9 @@ Install dependencies using pip or use following .yml file:
 
 ```bash
 pip install -r requirements.txt
+```
+or 
+```bash
+conda env create -f impenv.yml
+```
+
