@@ -31,7 +31,7 @@ conda env create -f impenv.yml
 ```
 
 ## Steps
-** RayTracing ** 
+**RayTracing** 
 You can use our built-in ray tracer or integrate your own. Just ensure your output data matches our expected structure to continue using this repository.
 
 ```bash 
