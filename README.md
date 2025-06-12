@@ -1,6 +1,6 @@
 # Efficient Proxy Raytracer for Optical Systems using Implicit Neural Representations
 
-Abstract: 
+##Abstract: 
 Ray tracing is a widely used technique for modeling optical systems, involving 
 sequential surface-by-surface computations which can be computationally 
 intensive.
@@ -10,3 +10,7 @@ surface-by-surface computations in a single pass end-to-end model.
 Ray2Ray learns the mapping between rays emitted from a given source and their 
 corresponding rays after passing through a given optical system in a physically 
 accurate manner.
+
+[📑 **Link to Manuscript**](Not Yet)
+
+
