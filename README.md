@@ -44,6 +44,7 @@ python raytracing_sys.py --lens_file  your_directory_to_lens.json --output_direc
 For furthur explanation please use --help.
 
 **Preparing Dataset** 
+
 Use following command to prepare your dataset. 
 ```bash 
 python dataset_maker.py --base_directory output_raytracing_dir --output_dir  save_train_test_dir
