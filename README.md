@@ -25,10 +25,7 @@ Install dependencies using pip or use following .yml file:
 ```bash
 pip install -r requirements.txt
 ```
-or 
-```bash
-conda env create -f impenv.yml
-```
+
 
 ## Steps
 **RayTracing** 
@@ -58,6 +55,14 @@ python train.py --data_root_dir root_data_directory --data_folder  data_for_your
 ```
 For additional options and command-line arguments for training, use --help.
 
+**Test and explore your INR optical system**
 
+```bash 
+python test.py --data_root_dir root_data_directory --data_folder  data_for_your_optical_system_dir --model_path   INR_opticalsystem_path.pth
+```
+For additional options and command-line arguments for training, use --help.
+
+# Contact
+This repository is actively being developed. I'm working to improve features and address issues. If you encounter any problems or have questions, feel free to contact shivansinaei@gmail.com or raise an issue.
 
 
