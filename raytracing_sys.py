@@ -26,7 +26,7 @@ torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 
 
-def read_lens_json(file_path, wave_length=[550]):
+def read_lens_json(file_path, wave_length=[589]):
     with open(file_path, 'r') as f:
         data = json.load(f)
 
@@ -44,7 +44,7 @@ def read_lens_json(file_path, wave_length=[550]):
 
 
 
-def dataset_maker(lens_file, output_directory, image_size_px=[201, 201], kernel_size=(201, 201), wave_length = [589]):
+def raytracing(lens_file, output_directory, image_size_px=[201, 201], kernel_size=(201, 201), wave_length = [589]):
     sensor_dict, lens_dict, aperture_dict, object_dict, rmode, focal, wavelengths  = read_lens_json(lens_file, wave_length=wave_length)
     com_output_directory = (
         f"{output_directory}_{lens_dict[0]['surface1']['radius_of_curvature']}_"
@@ -128,7 +128,7 @@ def main():
         parser.error("image_size_px and kernel_size must be provided as tuples, e.g., '(201, 201)'")
 
 
-    dataset_maker(lens_file=args.lens_file,
+    raytracing(lens_file=args.lens_file,
                   output_directory=args.output_directory,
                   image_size_px=image_size_px_tuple,
                   kernel_size=kernel_size_tuple)

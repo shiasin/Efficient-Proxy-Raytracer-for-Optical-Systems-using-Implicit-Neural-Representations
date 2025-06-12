@@ -207,7 +207,7 @@ def main():
 
     parser.add_argument('--base_directory', type=str, required=True,
                         help='Path to the directory containing raw data (e.g., "./raw_data").')
-    parser.add_argument('--output_dir', type=str, default='./processed_datasets/myd',
+    parser.add_argument('--output_dir', type=str, required=True,
                         help='Directory where "train" and "test" subfolders will be created for saving processed data.')
     parser.add_argument('--train_ratio', type=float, default=0.8,
                         help='Ratio of data to use for the training set (e.g., 0.8 for 80%% train, 20%% test).')

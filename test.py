@@ -64,7 +64,6 @@ def test(data_directory, data_folder, model_path, l=4, h=128, t= 300, min_max_sc
             error1_mm += criterion1(origin_in, origin_out)
             dir_loss += angular_loss(dir_in, dir_out)
 
-            print(error2_mm, error1_mm, dir_loss)
             loss2 +=(1*criterion2(i[1][:,:,:2], out[:,:,:2]) +criterion2(i[1][:,:,2:4], out[:,:,2:4])).item()
             loss1 += (1*criterion1(i[1][:,:,:2], out[:,:,:2])+criterion1(i[1][:,:,2:4], out[:,:,2:4])).item()
 
