@@ -30,5 +30,15 @@ or
 conda env create -f impenv.yml
 ```
 
+## Steps
+** RayTracing ** 
+You can use our built-in ray tracer or integrate your own. Just ensure your output data matches our expected structure to continue using this repository.
+
+```bash 
+python raytracing_sys --lens_file  your_directory_to_lens.json --output_directory  save_rays_directory
+```
+For furthur explanation please use --help.
+
+
 
 
