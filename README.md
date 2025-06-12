@@ -56,7 +56,7 @@ For furthur explanation please use --help.
 ```bash 
 python train.py --data_root_dir root_data_directory --data_folder  data_for_your_optical_system_dir
 ```
-For additional options and command-line arguments for training, use --help
+For additional options and command-line arguments for training, use --help.
 
 
 
