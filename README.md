@@ -11,6 +11,6 @@ Ray2Ray learns the mapping between rays emitted from a given source and their
 corresponding rays after passing through a given optical system in a physically 
 accurate manner.
 
-[📑 **Link to Manuscript**](Not Yet)
+[**Manuscript**](#)
 
 
