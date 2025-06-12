@@ -1,0 +1,37 @@
+{
+    "sensor": {
+        "sensor_size": [0, 0],
+        "sensor_res": [0,0],
+        "samples_per_pixel" : 1024
+    },
+    "mode" : "row",
+    "lenses": [
+        {
+            "surface1": {
+                "type": "sphere or plano",
+                "radius_of_curvature": 0
+            },
+            "surface2": {
+                "type": "sphere or plano",
+                "radius_of_curvature": -0
+            },
+            "material": "N-BK7",
+            "tc": 0,
+            "te": 0,
+            "diameter": 0,
+            "xy-center": [0, 0, 50]
+        }
+     
+    ],
+    "focal_length": 0,
+
+    "aperture": {
+        "xy-center": [0, 0, 49.999],
+        "diameter": 0
+    },
+    "target": {
+        "type": "plano",
+        "distance_before": 1,
+        "diameter": 200
+    }
+}
