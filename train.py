@@ -243,14 +243,22 @@ def main():
 
     parser.add_argument('--epochs', type=int,
                         default='3002',
-                        help='Directory to save the generated dataset.')
+                        help='epochs')
+    
+    parser.add_argument('--l', type=int,
+                        default='4',
+                        help='INR layers')
+    
+    parser.add_argument('--n', type=int,
+                        default='128',
+                        help='INR neurons')
     
     args = parser.parse_args()
 
     directory_path = os.path.join(os.getcwd(), args.data_root_dir)
 
     #other arguments for more flexible training will be added 
-    train_model(directory_path , args.data_folder, min_max_file = args.scaler_file, l=4, n=128, num_epochs= args.epochs, device = args.device)
+    train_model(directory_path , args.data_folder, min_max_file = args.scaler_file, l=args.l, n=args.n, num_epochs= args.epochs, device = args.device)
 
 if __name__ == "__main__":
     main()
