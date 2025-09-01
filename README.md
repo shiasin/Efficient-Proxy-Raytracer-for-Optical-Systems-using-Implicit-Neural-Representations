@@ -68,6 +68,6 @@ python test.py --data_root_dir root_data_directory --data_folder  data_for_your_
 For additional options and command-line arguments for training, use --help.
 
 # Support
-This repository is actively being developed. I'm working to improve features and address issues. If you encounter any problems or have questions, feel free to contact shivansinaei@gmail.com or raise an issue.
+This repository is actively being developed. I'm working to improve features and address issues. If you encounter any problems or have questions, feel free to contact shiasinaei98@gmail.com or raise an issue.
 
 
